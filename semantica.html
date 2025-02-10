@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantica</title>
+    <style>
+        /* Estilos general */
+        body{
+            width: 900px;
+            background-color: lightblue;
+            margin: auto;
+        }
+        header, nav, section, article, aside, footer{
+            border: solid 1px black;
+            margin: 10px;
+            padding: 10px;
+        }
+        /* Estilos del header */
+        header{
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo{
+            width: 100px;
+        }
+        h1{
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /*Estilos nav*/
+
+      
+        nav ul{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav ul a{
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #333;
+        }
+
+        /**/
+        #container{
+            display: flex;
+        }
+        section{
+            width: 74%;
+        }
+        section, aside{
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+               }
+        aside{
+            width: 22%;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagenes/pc.jpg" alt="PC">
+        <h1>Header</h1>
+    </header>
+    <nav>
+        <p>Menú navegación</p>
+        <ul>
+            <li><a href="#">Portada</a></li>
+            <li><a href="#">Ordenadores</a></li>
+            <li><a href="#">Contacta</a></li>
+        </ul>
+
+    </nav>
+    <div id="container">
+        <section>
+            <p>Section</p>
+            <article>
+                <p>Articulo 1</p>
+            </article>
+            <article>
+                <p>Articulo 2</p>
+            </article>
+        </section>
+    <aside>
+        <p>Aside</p>
+    </aside>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
