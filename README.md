@@ -39,8 +39,6 @@ Contactar con los contribuidores principales directamente a través de sus perfi
 Quién mantiene y contribuye con el proyecto
 El proyecto es mantenido y desarrollado por:
 
-Juan Pérez - Instructor del curso PFI y desarrollador principal.
-
-María López - Asistente de instrucción y colaboradora.
+Ricardo Bazo - Instructor del curso PFI y desarrollador principal.
 
 Estudiantes del curso PFI - Contribuidores activos y testers. Agradecimientos especiales a todos los estudiantes y colaboradores que han participado en el desarrollo y mejora de este proyecto.
